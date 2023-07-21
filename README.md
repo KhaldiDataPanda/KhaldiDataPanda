@@ -1,8 +1,15 @@
-# AbderrahmaneKhaldi
-
 # Hey there, I'm Abderrahmane! 👋
 
-### Welcome to my GitHub! 🚀
+
+
+![Profile Stats](https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KhaldiDataPanda&theme=dracula&hide_border=false)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+
+
+
+### Welcome to my GitHub! 🚀 <i>Data Data Everywhere</i>
 
 I'm a passionate Data Scientist, ML Engineer, and Python Programmer with a deep love for research and academia. 📚 I believe in the power of data-driven insights and cutting-edge technology to solve complex problems and make the world a better place.
 
