@@ -9,6 +9,9 @@
 
 
 
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda" alt="KhaldiDataPanda" /></a> </p>
+
+
 ### Welcome to my GitHub! 🚀 <i>Data Data Everywhere</i>
 
 I'm a passionate Data Scientist, ML Engineer, and Python Programmer with a deep love for research and academia. 📚 I believe in the power of data-driven insights and cutting-edge technology to solve complex problems and make the world a better place.
