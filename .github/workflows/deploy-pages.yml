@@ -1,0 +1,314 @@
+name: Deploy Profile to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run daily at 00:00 UTC to update stats
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install -g markdown-it
+          npm install -g markdown-it-emoji
+          npm install -g markdown-it-anchor
+
+      - name: Create HTML directory
+        run: mkdir -p public
+
+      - name: Convert README to HTML
+        run: |
+          cat > convert.js << 'EOF'
+          const fs = require('fs');
+          const MarkdownIt = require('markdown-it');
+          const md = new MarkdownIt({
+            html: true,
+            linkify: true,
+            typographer: true
+          });
+
+          const readme = fs.readFileSync('README.md', 'utf8');
+          const htmlContent = md.render(readme);
+
+          const template = `<!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta name="description" content="Abderrahmane Khaldi - AI Engineer & Data Scientist">
+              <meta name="author" content="Abderrahmane Khaldi">
+              <title>Abderrahmane Khaldi - AI Engineer & Data Scientist</title>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+              <style>
+                  :root {
+                      --bg-primary: #282a36;
+                      --bg-secondary: #1e1f29;
+                      --text-primary: #f8f8f2;
+                      --text-secondary: #6272a4;
+                      --accent: #bd93f9;
+                      --accent-hover: #ff79c6;
+                      --link-color: #8be9fd;
+                  }
+
+                  * {
+                      margin: 0;
+                      padding: 0;
+                      box-sizing: border-box;
+                  }
+
+                  body {
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+                      color: var(--text-primary);
+                      line-height: 1.6;
+                      min-height: 100vh;
+                  }
+
+                  .container {
+                      max-width: 900px;
+                      margin: 0 auto;
+                      padding: 40px 20px;
+                  }
+
+                  header {
+                      text-align: center;
+                      margin-bottom: 50px;
+                      padding: 30px 0;
+                      border-bottom: 2px solid var(--accent);
+                  }
+
+                  h1 {
+                      font-size: 3em;
+                      color: var(--accent);
+                      margin-bottom: 10px;
+                      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+                  }
+
+                  h2 {
+                      font-size: 2em;
+                      color: var(--accent);
+                      margin-top: 30px;
+                      margin-bottom: 15px;
+                      border-bottom: 2px solid var(--text-secondary);
+                      padding-bottom: 10px;
+                  }
+
+                  h3 {
+                      font-size: 1.5em;
+                      color: var(--link-color);
+                      margin-top: 20px;
+                      margin-bottom: 10px;
+                  }
+
+                  p {
+                      margin-bottom: 15px;
+                      color: var(--text-primary);
+                      font-size: 1.1em;
+                  }
+
+                  a {
+                      color: var(--link-color);
+                      text-decoration: none;
+                      transition: color 0.3s ease;
+                  }
+
+                  a:hover {
+                      color: var(--accent-hover);
+                      text-decoration: underline;
+                  }
+
+                  img {
+                      max-width: 100%;
+                      height: auto;
+                      border-radius: 10px;
+                      margin: 20px 0;
+                      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+                  }
+
+                  ul, ol {
+                      margin-left: 30px;
+                      margin-bottom: 15px;
+                  }
+
+                  li {
+                      margin-bottom: 8px;
+                      color: var(--text-primary);
+                  }
+
+                  code {
+                      background-color: var(--bg-secondary);
+                      padding: 2px 6px;
+                      border-radius: 3px;
+                      font-family: 'Courier New', monospace;
+                      color: var(--accent);
+                  }
+
+                  pre {
+                      background-color: var(--bg-secondary);
+                      padding: 15px;
+                      border-radius: 8px;
+                      overflow-x: auto;
+                      margin: 15px 0;
+                      border-left: 4px solid var(--accent);
+                  }
+
+                  pre code {
+                      background: none;
+                      padding: 0;
+                  }
+
+                  blockquote {
+                      border-left: 4px solid var(--accent);
+                      padding-left: 20px;
+                      margin: 20px 0;
+                      font-style: italic;
+                      color: var(--text-secondary);
+                  }
+
+                  hr {
+                      border: none;
+                      border-top: 2px solid var(--text-secondary);
+                      margin: 30px 0;
+                  }
+
+                  .stats-container {
+                      display: flex;
+                      flex-wrap: wrap;
+                      justify-content: center;
+                      gap: 20px;
+                      margin: 30px 0;
+                  }
+
+                  .stats-container img {
+                      flex: 1 1 300px;
+                      max-width: 450px;
+                  }
+
+                  footer {
+                      text-align: center;
+                      padding: 30px 0;
+                      margin-top: 50px;
+                      border-top: 2px solid var(--accent);
+                      color: var(--text-secondary);
+                  }
+
+                  .social-links {
+                      margin-top: 20px;
+                  }
+
+                  .social-links a {
+                      display: inline-block;
+                      margin: 0 10px;
+                      font-size: 1.5em;
+                      transition: transform 0.3s ease;
+                  }
+
+                  .social-links a:hover {
+                      transform: scale(1.2);
+                  }
+
+                  @media (max-width: 768px) {
+                      h1 {
+                          font-size: 2em;
+                      }
+
+                      h2 {
+                          font-size: 1.5em;
+                      }
+
+                      .container {
+                          padding: 20px 15px;
+                      }
+
+                      .stats-container img {
+                          flex: 1 1 100%;
+                      }
+                  }
+
+                  /* Animation for page load */
+                  @keyframes fadeIn {
+                      from {
+                          opacity: 0;
+                          transform: translateY(20px);
+                      }
+                      to {
+                          opacity: 1;
+                          transform: translateY(0);
+                      }
+                  }
+
+                  .container > * {
+                      animation: fadeIn 0.6s ease-out;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  ${htmlContent}
+                  <footer>
+                      <div class="social-links">
+                          <a href="https://github.com/KhaldiDataPanda" target="_blank" title="GitHub">
+                              <i class="fab fa-github"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/abderrahmane-khaldi/" target="_blank" title="LinkedIn">
+                              <i class="fab fa-linkedin"></i>
+                          </a>
+                      </div>
+                      <p style="margin-top: 20px;">
+                          © ${new Date().getFullYear()} Abderrahmane Khaldi. Auto-updated daily via GitHub Actions.
+                      </p>
+                      <p style="font-size: 0.9em; margin-top: 10px;">
+                          Last updated: ${new Date().toUTCString()}
+                      </p>
+                  </footer>
+              </div>
+          </body>
+          </html>`;
+
+          fs.writeFileSync('public/index.html', template);
+          console.log('Successfully converted README.md to HTML');
+          EOF
+
+          node convert.js
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
