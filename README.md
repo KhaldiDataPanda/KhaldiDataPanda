@@ -1,48 +1,48 @@
 # Hey there, I'm Abderrahmane! 👋
 
-
-
-![Profile Stats](https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)
+![Profile Stats](https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&show_icons=true&theme=dracula&hide_border=false&count_private=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KhaldiDataPanda&theme=dracula&hide_border=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=10)
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda&theme=dracula&margin-w=10&no-frame=true" alt="KhaldiDataPanda" /></a> </p>
 
 
+### Welcome to my GitHub! 🚀 <i>Code. Learn. Build. Repeat.</i>
+
+I'm Abderrahmane — a tech enthusiast who lives somewhere between code and creativity. I spend most of my time tinkering with AI models, building cool data-driven tools, and exploring how technology can make sense of messy real-world problems.
+
+I'm not just into making models work — I care about *why* they work, how they fail, and how we can make them better. I enjoy diving deep into data science, AI engineering, and software systems that push ideas from research into real, usable things.
 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda" alt="KhaldiDataPanda" /></a> </p>
+## ⚙️ What I Do
+
+- **Machine Learning & AI Engineering**: From small ML models to large neural networks — if it learns from data, I’ve probably played with it.
+- **Data Science**: Crafting data pipelines, exploring patterns, and telling stories through numbers.
+- **MLOps & Deployment**: Turning notebooks into living, breathing apps using FastAPI, Streamlit, and containerized workflows.
+- **Problem Solving**: I like challenging problems — from NLP in Arabic dialects to computer vision for real-world tasks.
 
 
-### Welcome to my GitHub! 🚀 <i>Data Data Everywhere</i>
+## 🔭 What I’m Building
 
-I'm a passionate Data Scientist, ML Engineer, and Python Programmer with a deep love for research and academia. 📚 I believe in the power of data-driven insights and cutting-edge technology to solve complex problems and make the world a better place.
-
-## 🧠 Expertise
-
-- **Data Science**: Leveraging data to gain valuable insights, create predictive models, and drive decision-making processes.
-
-- **Machine Learning**: Building intelligent systems that can learn from data and improve their performance over time.
-
-- **Python Programming**: Using Python to develop robust and efficient applications, tools, and algorithms.
-
-- **Research and Academia**: Engaging in continuous learning, staying updated with the latest advancements, and contributing to the academic community.
-
-## 🔭 Current Projects
-
-I am constantly working on exciting projects that challenge and inspire me. Some of my current focus areas include:
-
-- Developing innovative machine learning algorithms for natural language processing.
-- Exploring the potential of deep learning in computer vision tasks.
-- Investigating the intersection of data science and social good to create positive impacts.
-
-## 🌱 Open to Collaboration
-
-I am always open to collaboration and eager to join forces on projects that align with my interests. If you have an exciting idea or need a hand with anything related to data science, machine learning, or Python, feel free to reach out!
-
-## 📚 Continuous Learning
-
-I strongly believe that knowledge is the key to growth and success. I dedicate time to learn new methodologies, study the latest research papers, and attend conferences and workshops to stay ahead in the ever-evolving field of data science.
+- Automated report generation systems for medical imaging 🩻
+- Emotion-aware recommendation systems combining voice, text & vision 🎭
+- Fake news detection models and NLP pipelines for Arabic content 🌍
+- Interactive dashboards and data apps for real-time insights 📊
 
 
-Thanks for stopping by and exploring my GitHub. Happy coding! 😄
+## 🌱 Always Exploring
 
-*P.S. Don't forget to leave a ⭐️ on any repositories you find interesting!* 🌟
+Every week I try to learn something new — a model, a tool, or even a random math concept that helps me think differently. I believe the best kind of progress is the one that keeps curiosity alive.
+
+
+## 🤝 Let's Connect
+
+If you’re into data, AI, or building useful tech with real impact, I’d love to chat or collaborate.
+
+📬 Reach out via GitHub or [LinkedIn](https://www.linkedin.com/in/abderrahmane-khaldi/)
+
+
+---
+
+⭐️ Thanks for stopping by — feel free to explore my projects, drop a star, or just take some inspiration for your next build!
+
