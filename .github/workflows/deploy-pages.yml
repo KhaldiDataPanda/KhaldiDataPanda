@@ -32,9 +32,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install -g markdown-it
-          npm install -g markdown-it-emoji
-          npm install -g markdown-it-anchor
+          npm init -y
+          npm install markdown-it markdown-it-emoji markdown-it-anchor
 
       - name: Create HTML directory
         run: mkdir -p public
