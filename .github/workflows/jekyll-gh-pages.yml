@@ -37,7 +37,7 @@ jobs:
 
       - name: Install Jekyll
         run: |
-          gem install bundler jekyll
+          gem install bundler jekyll minima
 
       - name: Build site with Jekyll
         run: jekyll build --source . --destination ./_site

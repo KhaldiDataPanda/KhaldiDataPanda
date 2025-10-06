@@ -39,7 +39,7 @@ jobs:
           ruby-version: '3.2'
       - name: Install Jekyll
         run: |
-          gem install bundler jekyll
+          gem install bundler jekyll minima
       - name: Build site with Jekyll
         run: jekyll build --source . --destination ./_site
       - name: Upload artifact
