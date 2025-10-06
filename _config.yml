@@ -1,9 +1,0 @@
-title: KhaldiDataPanda Portfolio
-description: Personal GitHub Pages site powered by the README content.
-url: "https://khaldidatapanda.github.io"
-baseurl: "/KhaldiDataPanda"
-markdown: GFM
-theme: minima
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
