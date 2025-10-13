@@ -1,10 +1,18 @@
-# Hey there, I'm Abderrahmane! 👋
-
-![Profile Stats](https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&show_icons=true&theme=dracula&hide_border=false&count_private=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KhaldiDataPanda&theme=dracula&hide_border=false)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=KhaldiDataPanda&theme=dark&hide_border=false)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=10)
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda&theme=dracula&margin-w=10&no-frame=true" alt="KhaldiDataPanda" /></a> </p>
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+---
+[![](https://visitcount.itsvg.in/api?id=KhaldiDataPanda&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+# 💻 Tech Stack:
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
 
 ### Welcome to my GitHub! 🚀 <i>Code. Learn. Build. Repeat.</i>
@@ -14,35 +22,4 @@ I'm Abderrahmane — a tech enthusiast who lives somewhere between code and crea
 I'm not just into making models work — I care about *why* they work, how they fail, and how we can make them better. I enjoy diving deep into data science, AI engineering, and software systems that push ideas from research into real, usable things.
 
 
-## ⚙️ What I Do
-
-- **Machine Learning & AI Engineering**: From small ML models to large neural networks — if it learns from data, I’ve probably played with it.
-- **Data Science**: Crafting data pipelines, exploring patterns, and telling stories through numbers.
-- **MLOps & Deployment**: Turning notebooks into living, breathing apps using FastAPI, Streamlit, and containerized workflows.
-- **Problem Solving**: I like challenging problems — from NLP in Arabic dialects to computer vision for real-world tasks.
-
-
-## 🔭 What I’m Building
-
-- Automated report generation systems for medical imaging 🩻
-- Emotion-aware recommendation systems combining voice, text & vision 🎭
-- Fake news detection models and NLP pipelines for Arabic content 🌍
-- Interactive dashboards and data apps for real-time insights 📊
-
-
-## 🌱 Always Exploring
-
-Every week I try to learn something new — a model, a tool, or even a random math concept that helps me think differently. I believe the best kind of progress is the one that keeps curiosity alive.
-
-
-## 🤝 Let's Connect
-
-If you’re into data, AI, or building useful tech with real impact, I’d love to chat or collaborate.
-
 📬 Reach out via GitHub or [LinkedIn](https://www.linkedin.com/in/abderrahmane-khaldi/)
-
-
----
-
-⭐️ Thanks for stopping by — feel free to explore my projects, drop a star, or just take some inspiration for your next build!
-
