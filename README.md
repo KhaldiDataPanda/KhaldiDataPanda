@@ -21,5 +21,5 @@ I'm Abderrahmane — a tech enthusiast who lives somewhere between code and crea
 
 I'm not just into making models work — I care about *why* they work, how they fail, and how we can make them better. I enjoy diving deep into data science, AI engineering, and software systems that push ideas from research into real, usable things.
 
-
+My Portfolio : https://khaldidatapanda.github.io/Khaldi-Abderrahmane-Portfiolio/
 📬 Reach out via GitHub or [LinkedIn](https://www.linkedin.com/in/abderrahmane-khaldi/)
