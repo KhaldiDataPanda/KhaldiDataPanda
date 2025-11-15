@@ -1,7 +1,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 ![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=KhaldiDataPanda&theme=dark&hide_border=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=15)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=20)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda&theme=radical&no-frame=false&no-bg=true&margin-w=4)
