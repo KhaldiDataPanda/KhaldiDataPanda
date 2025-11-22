@@ -33,6 +33,12 @@ I'm not just into making models work — I care about *why* they work.
 
 <br/>
 
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=KhaldiDataPanda&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4" alt="KhaldiDataPanda's Trophies" />
+</a>
+
+<br/>
+
 <img src="https://github-readme-stats.vercel.app/api?username=KhaldiDataPanda&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KhaldiDataPanda&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
 
